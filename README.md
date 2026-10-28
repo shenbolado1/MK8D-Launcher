@@ -56,7 +56,7 @@ javac -encoding UTF-8 -cp <android.jar da platform android-36> \
 d8 --min-api 29 --output dexout $(find classes -name '*.class')
 cp dexout/classes.dex classes.dex
 python3 launcher/mk2apk.py <libdmhost.so> <saida.apk> <signing-key.json> \
-  --package org.nx2a.t0100152000022000 --label 'Mario Kart 8 Deluxe' \
+  --package org.nx2a.t0100152000022000 --label 'MKart8Port' \
   --lib dmhost --landscape --icon <icone.png> --release \
   --version-code <codigo> --version-name 3.0.5 --dex classes.dex \
   [--asset launcher_bg.png] [--asset launcher_bg.jpg] [--asset Bungee.ttf]
