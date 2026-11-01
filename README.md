@@ -40,6 +40,8 @@ yours — it does not port the game and does not accept a raw NSP.
 - **Import data pack**: imports the zip of the already-ported data pack
   (with `RomFS/`, `mods/`, `shaders.dmsv` and `nx2a-data.json` at the root).
   The zip is read straight from the file picker, with no pre-copy.
+  - **Install**: the launcher offers two ways to install — import an already-ported data pack, or install from your own .nsp files + prod.keys.
+  
 - **Mode**: Performance (handheld) or Resolution (docked).
 - **Present resolution**: 720p or Native.
 - **Driver**: the system Turnip driver, or an imported Turnip driver
@@ -111,6 +113,7 @@ a partir dessa sua cópia — ele não porta o jogo e não aceita um NSP cru.
 - **Import data pack**: importa o zip do data pack já portado
   (com `RomFS/`, `mods/`, `shaders.dmsv` e `nx2a-data.json` na raiz).
   O zip é lido direto do seletor de arquivos, sem cópia prévia.
+  - **Instalação**: o launcher oferece duas formas de instalar — importar um data pack já portado, ou instalar a partir dos seus próprios arquivos .nsp + prod.keys.
 - **Mode**: Performance (handheld) ou Resolution (docked).
 - **Present resolution**: 720p ou Native.
 - **Driver**: o driver Turnip do sistema, ou um driver Turnip importado
